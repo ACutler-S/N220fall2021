@@ -25,7 +25,5 @@ function setup() {
 
     strokeWeight(2);
     line(10,10, 100,50);
-
-
     
 }
