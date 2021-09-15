@@ -31,3 +31,35 @@
 
     //circle( 400 - mouseX, 400 - mouseY, 25);
     //THis is the math behind the problem
+
+
+
+
+    let h = 50;
+//this is the height
+    let kl = 100;
+//
+    let pol = .5;
+//Amplitute of the curve
+    let r = 10;
+
+    let j = 10;
+
+    //let 
+
+    function setup(){
+        createCanvas(400, 400);
+
+        fill(255, 0 ,0);
+        //draws a sine curve
+        for(let i = 0; i < 50; i++){
+        //creates the for loop that repeats the circle
+        let zf = Math.sin(i * pol) * r;
+    //creates the variable that holds the math for the sin curve used inside the circle
+        circle(i * j + h, zf + kl, 20);
+        }
+    //for fun animate
+        function draw(){
+            background(220);
+        }
+    }
