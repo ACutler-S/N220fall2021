@@ -36,16 +36,16 @@
 
 
     let h = 50;
-//this is the height
+//starting x point
     let kl = 100;
-//
+//starting y point
     let pol = .5;
 //Amplitute of the curve
     let r = 10;
-
+//radius
     let j = 10;
-
-    //let 
+//spacing of the circles
+    //let xPos = 0;
 
     function setup(){
         createCanvas(400, 400);
@@ -56,6 +56,7 @@
         //creates the for loop that repeats the circle
         let zf = Math.sin(i * pol) * r;
     //creates the variable that holds the math for the sin curve used inside the circle
+           // xPos += 5;
         circle(i * j + h, zf + kl, 20);
         }
     //for fun animate
