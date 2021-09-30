@@ -34,7 +34,7 @@
 
 
 
-
+/*
     let h = 50;
 //starting x point
     let kl = 100;
@@ -64,3 +64,40 @@
             background(220);
         }
     }
+    */
+
+//Throw out any numbers above 50 from the array, (will need a new array for this.. or to use .splice())
+//Calculate average in the "cleaned array"
+//draw a rectangle on the screen that is the height of the average
+//make sure the rectangle is to the right of any prior rects drawn
+
+    function setup(){
+        createCanvas(500, 500);
+
+        let thisarr = [];
+        //let averageArr = [];
+        for(let i = 0; i < 100; i++){
+            thisarr[i] = Math.random()*100;
+            console.log(thisarr);
+           // averageArr = thisarr.splice(49);
+            //console.log(averageArr);
+        /*averHeight = averageArr.reduce((a,b) => a + b, 0) / averageArr.length;
+        console.log(averHeight);   
+        }
+        rect(50,50,40,averHeight);*/
+
+        }
+    }
+
+//keegans work:
+/*
+    for(let i = 0; i < 100; i++){
+        this.Arr[i] = Math.random()*100;
+
+        if(this.Arr[i] > 50){
+            newArr = thisArr.splice(i,1);
+
+        }
+        console.log(newArr);
+    }
+    */
