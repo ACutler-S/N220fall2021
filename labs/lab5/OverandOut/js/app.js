@@ -12,7 +12,7 @@ box.style.backgroundColor = "black";
 document.body.appendChild(box);
 
 function changeColor(){
-box.style.backgroundColor = "blue";
+box.style.backgroundColor = "#65d0f7";
 }
 function mouseOut(){
     box.style.backgroundColor ="black";
