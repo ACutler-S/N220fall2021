@@ -27,6 +27,9 @@ class Bubbles{
         if(this.size <= 250){
             this.size = this.size +1;
         }
+        if(this.size == 250){
+            this.size = 0
+        }
     }
 }
 
