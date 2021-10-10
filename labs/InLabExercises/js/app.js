@@ -70,7 +70,7 @@
 //Calculate average in the "cleaned array"
 //draw a rectangle on the screen that is the height of the average
 //make sure the rectangle is to the right of any prior rects drawn
-
+/*
     function setup(){
         createCanvas(500, 500);
 
@@ -86,8 +86,8 @@
         }
         rect(50,50,40,averHeight);*/
 
-        }
-    }
+       // }
+  //  }
 
 //keegans work:
 /*
@@ -101,3 +101,30 @@
         console.log(newArr);
     }
     */
+/*
+let meeples=[];
+
+function dispense(){
+    for(let i = 0; i<20; i++){
+    meeples.push({name:"Meeple #"+i, age: Math.floor(Math.random()*50)});
+    }
+    console.log(meeples);
+}
+
+
+let yearButton = document.createElement("button");
+yearButton.style.width = "100px";
+yearButton.style.height = "100px";
+yearButton.style.float = "left";
+yearButton.style.backgroundColor = "red";
+yearButton.innerHTML = "YearAdd!";
+document.body.appendChild(yearButton);
+*/
+
+let books = ["Eragon", "Brisngr", "Eldest", "Inheritance"];
+
+for(let i = 0; i < books.length; i++){
+   console.log(books);
+}
+books.sort();
+console.log(books);
