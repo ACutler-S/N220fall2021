@@ -14,8 +14,8 @@ function setup(){
     fill(0,0,0);
 //Creation of the canvas and setting the base circle fill to black
 
-    for(let i = 1; i <= 25; i++){
-        circle(i * 20, 100, 10);
+    for(let i = 0; i <= 24; i++){
+        circle(i * 25, 100, 10);
 //Loop that draws the 25 circles
 
         if(i % 3 == 0 && i % 5 == 0){
@@ -23,7 +23,7 @@ function setup(){
         }else if(i % 5 == 0){
             fill(0,255,0);
         }else if(i % 3 == 0 ){
-            fill(43, 37, 207);
+            fill(152, 96, 224);
         }
     }
 //If else statements that do all the math for the different colored circles, i think this is where my math

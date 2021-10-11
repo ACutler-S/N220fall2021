@@ -1,7 +1,7 @@
 //Andrew Cutler
 //N220 - 34971
-//September 16 ,2021
-//Assignment 3: Loops
+//October 11, 2021
+//Midterm MakeUp: Assignment 3: Loops
 //pyramid loop
 //----------------------------------------------------------------
 //Idea: Create a nested for loop that draws red circles in a pyramid shape
@@ -22,4 +22,5 @@ function draw(){
     }
 }
 
-//This one stumped me. I believe that there is a problem inside the loops that is causing them to just draw a gri
+
+//I did some review on how nested looping worked and I fixed my mistake and the prgram runs correctly =D
