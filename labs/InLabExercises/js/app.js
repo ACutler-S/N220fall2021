@@ -120,7 +120,7 @@ yearButton.style.backgroundColor = "red";
 yearButton.innerHTML = "YearAdd!";
 document.body.appendChild(yearButton);
 */
-
+/*
 let books = ["Eragon", "Brisngr", "Eldest", "Inheritance"];
 
 for(let i = 0; i < books.length; i++){
@@ -128,3 +128,19 @@ for(let i = 0; i < books.length; i++){
 }
 books.sort();
 console.log(books);
+*/
+
+let input = document.querySelector("#inputB");
+let times = document.querySelector("#inputTimes");
+
+function logOut(){
+
+    console.log(times.value)
+    /*
+
+    for (let i = times; i > times.value; i++){
+        console.log(input);
+    }
+    */
+
+}

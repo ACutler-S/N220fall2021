@@ -203,5 +203,7 @@ for(let i = 0; i < scores.length; i++){
 }
 
 
-//Example 2:
+//Midterm review of p5:
+
+
 

@@ -16,6 +16,7 @@ function setup(){
 
 
 let xPos = 0;
+
 //Creates the variable that holds the initial speed of the ball
 
 function draw(){
