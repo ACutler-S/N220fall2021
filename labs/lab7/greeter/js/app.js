@@ -1,5 +1,6 @@
 let inputName = document.querySelector("#userInput");
 
 function greetYou(){
-    console.log("Hello " + inputName.value);
+    let inputValue = inputName.value
+    console.log("Hello " + inputValue);
 }
