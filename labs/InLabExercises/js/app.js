@@ -130,6 +130,7 @@ books.sort();
 console.log(books);
 */
 
+/*
 let input = document.querySelector("#inputB");
 let times = document.querySelector("#inputTimes");
 
@@ -143,4 +144,25 @@ function logOut(){
     }
     */
 
+//}
+
+
+let input = document.querySelector("#letInput");
+let dvOutput = document.getElementById("Output");
+let letters = input.value;
+
+function verify(letters){
+    if(letters == "A"){
+        dvOutput.innerHTML = "This is a vowel";
+    }else if (letters == "E"){
+        dvOutput.innerHTML = "This is a vowel";
+    }else if (letters == "I"){
+        dvOutput.innerHTML = "This is a vowel";
+    }else if (letters == "O"){
+        dvOutput.innerHTML = "This is a vowel";
+    }else if (letters == "U"){
+        dvOutput.innerHTML = "This is a vowel";
+    }else{
+        dvOutput.innerHTML = "This is not a vowel";
+    }
 }
