@@ -149,18 +149,18 @@ function logOut(){
 
 let input = document.querySelector("#letInput");
 let dvOutput = document.getElementById("Output");
-let letters = input.value;
 
-function verify(letters){
-    if(letters == "A"){
+
+function verify(){
+    if(input.value == "A"){
         dvOutput.innerHTML = "This is a vowel";
-    }else if (letters == "E"){
+    }else if (input.value == "E"){
         dvOutput.innerHTML = "This is a vowel";
-    }else if (letters == "I"){
+    }else if (input.value == "I"){
         dvOutput.innerHTML = "This is a vowel";
-    }else if (letters == "O"){
+    }else if (input.value == "O"){
         dvOutput.innerHTML = "This is a vowel";
-    }else if (letters == "U"){
+    }else if (input.value == "U"){
         dvOutput.innerHTML = "This is a vowel";
     }else{
         dvOutput.innerHTML = "This is not a vowel";
