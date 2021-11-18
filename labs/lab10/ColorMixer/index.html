@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorMixer</title>
+
+    <style>
+        #displayBox{
+            width: 800px;
+            height: 200px;
+            margin: 5px;
+        }
+        #calculatorBox{
+            width: 120px;
+            height:50px;
+            background-color: slategrey;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id ="displayBox"></div>
+    <div id = "calculatorBox"></div>
+    <button id = "button" onclick="changeColor(event)" data-number="1">Red +1</button>
+    <button id = "button" onclick="changeColor(event)" data-number="5">Red +5</button>
+    <button id = "button" onclick="changeColor(event)" data-number="10">Red +10</button>
+<br>
+<br>
+    <button id = "button" onclick="changeColor(event)" data-number="1">Green +1</button>
+    <button id = "button" onclick="changeColor(event)" data-number="5">Green +5</button>
+    <button id = "button" onclick="changeColor(event)" data-number="10">Green +10</button>
+
+<br>
+<br>
+    <button id = "button" onclick="changeColor(event)" data-number="1">Blue +1</button>
+    <button id = "button" onclick="changeColor(event)" data-number="5">Blue +5</button>
+    <button id = "button" onclick="changeColor(event)" data-number="10">Blue +10</button>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
