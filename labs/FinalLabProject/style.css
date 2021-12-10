@@ -1,0 +1,61 @@
+:root{
+    --green: ##208a3c
+}
+
+body{
+    margin: 0;
+    padding: 0px;
+    color: var(--green);
+    font-family: monospace;
+}
+ 
+*{
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+h1{
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+.container{
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameBoard{
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--green);
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: var(--green);
+    color: red;
+    border-color: var(--green);
+    font-size: 18px;
+    transition: 200ms transform;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
